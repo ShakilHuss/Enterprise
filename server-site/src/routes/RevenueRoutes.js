@@ -1,6 +1,6 @@
 const express = require('express');
 const moment = require('moment');
-const Order = require('../models/OrderScheema'); // Fixed typo (OrderScheema to OrderSchema)
+const Order = require('../models/OrderSchema'); // Fixed typo (OrderScheema to OrderSchema)
 const router = express.Router();
 
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Order = require('../models/OrderScheema'); // Adjust path as needed
+const Order = require('../models/OrderSchema'); // Adjust path as needed
 const axios = require('axios');
 const nodemailer = require("nodemailer");
 

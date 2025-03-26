@@ -12,12 +12,12 @@ const connectToMongoDB = require("./src/config/db");
 // Import route handlers
 const menuRoutes = require("./src/routes/MenuRoutes");
 const orderRoutes = require("./src/routes/OrderRoutes");
-const revenueRoutes = require("./src/routes/RevenueRutes");
-const paymentRoutes = require("./src/routes/PaymentRutes");
-const userRoutes = require("./src/routes/UsersRoutes");
-const SpecialMenuRoutes = require("./src/routes/SpecialMenuRouter");
+const revenueRoutes = require("./src/routes/RevenueRoutes");
+const paymentRoutes = require("./src/routes/PaymentRoutes");
+const userRoutes = require("./src/routes/UserRoutes");
+const SpecialMenuRoutes = require("./src/routes/SpecialMenuRoutes");
 const DeliveryLocationRoutes = require("./src/routes/LocationRoutes");
-const OpenandcloseRoutes = require("./src/routes/OpenAndCLose");
+const OpenandcloseRoutes = require("./src/routes/OpenAndClose");
 
 // Load environment variables
 dotenv.config();

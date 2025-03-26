@@ -1,5 +1,5 @@
 const express = require('express');
-const Location = require('../models/LocationShema');
+const Location = require('../models/LocationSchema');
 const router = express.Router();
 
 
